@@ -188,10 +188,10 @@ Antwort:
 
 # --- 5. Schritt Streamlit Webfrontend ---
 def main():
-    st.set_page_config(page_title="Tessatestfeld12-11-25", page_icon=":)")
+    st.set_page_config(page_title="Tessatestfeld18-11-25", page_icon=":)")
     
     st.title("Tessamat - SEO, LinkedIn & Insta-Postbuilder")
-    st.caption("E-Commerce Rulez V1.0.1 merged Dataset louis_rag_dataset_DS_V1_20251112_R1.csv")
+    st.caption("E-Commerce Rulez V1.1.1 merged Dataset louis_rag_dataset_DS_V1_20251112_R1.csv")
 
     # Komponeten laden und cachen
     split_documents = load_and_prepare_data()
